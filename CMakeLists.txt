@@ -3,5 +3,8 @@ project(untitled)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(untitled Drone.cpp
-        "CustomVector.cpp")
+add_executable(untitled
+        Drone.cpp
+        CustomVector.cpp
+        SharedPtr.cpp
+)
